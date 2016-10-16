@@ -13,5 +13,12 @@
     "require": {
         "albertmorenodev/server-info": "dev-master",
         "twbs/bootstrap": "^3.3"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "php -r \"copy('vendor/twbs/bootstrap/dist/css/bootstrap.min.css', 'public/css/bootstrap.min.css');\"",
+            "php -r \"copy('vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css', 'public/css/bootstrap-theme.min.css');\"",
+            "php -r \"copy('vendor/twbs/bootstrap/dist/js/bootstrap.min.js', 'public/js/bootstrap.min.js');\""
+        ]
     }
 }
