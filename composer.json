@@ -1,0 +1,14 @@
+{
+    "name": "albertmorenodev/server-admin",
+    "description": "Server administration web app",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "albert.moreno",
+            "email": "albert.moreno.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
