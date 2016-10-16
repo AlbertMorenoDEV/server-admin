@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4ee0c4f52e3732857d34303a6e2dfbd7",
-    "content-hash": "f0298bc06a66d4ca8323e79519d4b823",
+    "hash": "6a3da671800bcd3312e2d5463bb7df8c",
+    "content-hash": "70a79d4acf9890c8514377e919327b3d",
     "packages": [
         {
             "name": "albertmorenodev/server-info",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AlbertMorenoDEV/server-info.git",
-                "reference": "474a2f4e7170196566ba27bdc710701efd52460f"
+                "reference": "460dec73598e67c2bcdf1f81f224aaec77b62072"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AlbertMorenoDEV/server-info/zipball/474a2f4e7170196566ba27bdc710701efd52460f",
-                "reference": "474a2f4e7170196566ba27bdc710701efd52460f",
+                "url": "https://api.github.com/repos/AlbertMorenoDEV/server-info/zipball/460dec73598e67c2bcdf1f81f224aaec77b62072",
+                "reference": "460dec73598e67c2bcdf1f81f224aaec77b62072",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,58 @@
                 }
             ],
             "description": "Get information of server",
-            "time": "2016-10-16 13:56:14"
+            "time": "2016-10-16 14:29:50"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "9b7d1406b922300c5d01e99026e4fffc67445185"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/9b7d1406b922300c5d01e99026e4fffc67445185",
+                "reference": "9b7d1406b922300c5d01e99026e4fffc67445185",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "http://getbootstrap.com",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
+            ],
+            "time": "2016-09-22 10:06:30"
         }
     ],
     "packages-dev": [],

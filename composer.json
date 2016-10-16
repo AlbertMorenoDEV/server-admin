@@ -11,6 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "albertmorenodev/server-info": "dev-master"
+        "albertmorenodev/server-info": "dev-master",
+        "twbs/bootstrap": "^3.3"
     }
 }
