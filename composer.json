@@ -10,5 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "albertmorenodev/server-info": "dev-master"
+    }
 }
