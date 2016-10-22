@@ -31,6 +31,7 @@ include "../vendor/autoload.php";
 <?php
 $disk = new \ServerInfo\Disk();
 $cpu = new \ServerInfo\Cpu();
+$memory = new \ServerInfo\Memory();
 ?>
 <div class="container body">
     <div class="main_container">
@@ -73,6 +74,17 @@ $cpu = new \ServerInfo\Cpu();
                                     <div class="">
                                         <div class="progress progress_sm" style="width: 76%;">
                                             <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="<?=round($cpu->getServerLoad(), 0);?>"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 col-xs-6">
+                                <div>
+                                    <p>Memory</p>
+                                    <div class="">
+                                        <div class="progress progress_sm" style="width: 76%;">
+                                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="<?=round($memory->getServerMemoryUsage(), 0);?>"></div>
                                         </div>
                                     </div>
                                 </div>
