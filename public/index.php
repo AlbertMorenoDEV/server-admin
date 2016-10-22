@@ -28,7 +28,10 @@ include "../vendor/autoload.php";
 </head>
 
 <body class="nav-md">
-<?php $disk = new \ServerInfo\Disk(); ?>
+<?php
+$disk = new \ServerInfo\Disk();
+$cpu = new \ServerInfo\Cpu();
+?>
 <div class="container body">
     <div class="main_container">
 
@@ -59,6 +62,17 @@ include "../vendor/autoload.php";
                                     <div class="">
                                         <div class="progress progress_sm" style="width: 76%;">
                                             <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="<?=round(($disk->freeSpace()/$disk->totalSpace())*100, 0);?>"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 col-xs-6">
+                                <div>
+                                    <p>CPU (<?=$cpu->getServerLoad();?>)</p>
+                                    <div class="">
+                                        <div class="progress progress_sm" style="width: 76%;">
+                                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="<?=round($cpu->getServerLoad(), 0);?>"></div>
                                         </div>
                                     </div>
                                 </div>

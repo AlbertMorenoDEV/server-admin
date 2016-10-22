@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AlbertMorenoDEV/server-info.git",
-                "reference": "460dec73598e67c2bcdf1f81f224aaec77b62072"
+                "reference": "388736b57553ac0e9e0d0b0bdb703627ee04eb82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AlbertMorenoDEV/server-info/zipball/460dec73598e67c2bcdf1f81f224aaec77b62072",
-                "reference": "460dec73598e67c2bcdf1f81f224aaec77b62072",
+                "url": "https://api.github.com/repos/AlbertMorenoDEV/server-info/zipball/388736b57553ac0e9e0d0b0bdb703627ee04eb82",
+                "reference": "388736b57553ac0e9e0d0b0bdb703627ee04eb82",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 }
             ],
             "description": "Get information of server",
-            "time": "2016-10-16 14:29:50"
+            "time": "2016-10-22 16:14:21"
         },
         {
             "name": "twbs/bootstrap",
